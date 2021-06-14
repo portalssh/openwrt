@@ -1,6 +1,6 @@
 * Install Neofetch Openwrt
 ```
-opkg install libustream-openssl ca-bundle ca-certificates wget bash nano
+* opkg install libustream-openssl ca-bundle ca-certificates wget bash nano
 wget -O /bin/neofetch "https://raw.githubusercontent.com/portalssh/openwrt/main/neofetch/neofetch"
 chmod +x /bin/neofetch
 sed -i 's/\[ -f \/etc\/banner \] && cat \/etc\/banner/#&/' /etc/profile
