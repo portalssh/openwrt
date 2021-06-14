@@ -11,3 +11,7 @@ cd /tmp
 wget https://github.com/portalssh/openwrt/raw/main/shadowsocks-obfs-ssr/luci-app-shadowsocksr_1.8.1-2_all.ipk && opkg install *ipk
 wget -O /usr/lib/lua/luci/controller/shadowsocksr.lua "https://raw.githubusercontent.com/portalssh/openwrt/main/shadowsocks-obfs-ssr/config/shadowsocksr.lua"
 ```
+* Added Status openvpn with comand "openvpn-status"
+```
+logread -e openvpn; netstat -l -n -p | grep -e openvpn
+```
