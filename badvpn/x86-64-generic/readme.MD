@@ -1,1 +1,4 @@
-x86-64-generic
+* List Router openwrt compatible "targets/x86/64/"
+```
+- Openwrt PC 32bit
+```
