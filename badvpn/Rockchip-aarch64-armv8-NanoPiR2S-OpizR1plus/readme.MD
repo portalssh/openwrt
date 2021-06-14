@@ -1,1 +1,5 @@
-Rockchip-aarch64-armv8-NanoPiR2S-OpizR1plus
+* List Router openwrt compatible "targets/rockchip/armv8/"
+```
+- Nano Pi R2S
+```
+
