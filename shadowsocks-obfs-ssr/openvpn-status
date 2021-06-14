@@ -1,2 +1,2 @@
-
+#!/bin/sh
 logread -e openvpn; netstat -l -n -p | grep -e openvpn
