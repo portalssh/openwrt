@@ -1,4 +1,4 @@
-# Tutorial Debrick router xiaomi "4A basic edition , 4A gigabyte edition , dan 4C"
+# Tutorial Debrick router xiaomi 4A dan 4C
 
 
 1. Download "**Tools Debrick**" sesuai type router lalu extract
