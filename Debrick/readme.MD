@@ -11,5 +11,5 @@
 4. Buka tools debrick dan pastikan DHCP LAN sudah terdeksi benar menjadi "192.168.1.2" kemudian klik "online"
 
 <div  align="center">    
-  <img src="./image/DHCP2.png" width = "300" alt="curl bash" align=center />
+  <img src="./image/DHCP2.png" width = "900" alt="curl bash" align=center />
 </div>
