@@ -4,4 +4,3 @@
   <img src="./image/DHCP1.png" width = "300" alt="curl bash" align=center />
 </div>
 
-```
