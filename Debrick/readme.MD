@@ -9,7 +9,7 @@
 7. Proses debrick sukses akan di tandai dengan lampu LED ruter berwarna biru
 ```
 <div  align="center">    
-  <img src="./image/DHCP1.png" width = "600" alt="curl bash" align=center />
+  <img src="./image/DHCP1.png" width = "300" alt="curl bash" align=center />
 </div>
 
 ```
