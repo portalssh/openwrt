@@ -1,10 +1,10 @@
-1. Download **Tools Debrick** sesuai type router lalu extract
+1. Download "**Tools Debrick**" sesuai type router lalu extract
 
 <div  align="center">    
   <img src="./image/DHCP1.png" width = "300" alt="curl bash" align=center />
 </div>
 
-2. Colok Adaptor router sambil tahan tombol reset pada ruter xiaomi sampai LED kedap kedip **berwarna Orange** baru lepas tombol reset
+2. Colok Adaptor router sambil tahan tombol reset pada ruter xiaomi sampai LED kedap kedip "**Berwarna Orange**" baru lepas tombol reset
 
 3. Colok LAN1 dr router xiaomi ke laptop
 
@@ -16,6 +16,6 @@
 
 5. Tunggu proses tftp debrick melakukan download firmware , ini biasa nya butuh waktu sekitar 10 menit
 
-6. Proses debrick sukses akan di tandai dengan lampu LED ruter **berwarna biru**
+6. Proses debrick sukses akan di tandai dengan lampu LED ruter "**berwarna biru**"
 
-7. Jika LED router sudah berwarna biru silahkan klik offline **Tools Debrick** lalu cabut adaptor ruter dan hidupkan ulang router
+7. Jika LED router sudah berwarna biru silahkan klik offline "**Tools Debrick**" lalu cabut adaptor ruter dan hidupkan ulang router
