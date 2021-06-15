@@ -8,3 +8,9 @@
 6. Tunggu proses tftp debrick melakukan download firmware , ini biasa nya butuh waktu sekitar 10 menit
 7. Proses debrick sukses akan di tandai dengan lampu LED ruter berwarna biru
 ```
+<div  align="center">    
+  <img src="./wms/config/GUI-wms.png" width = "1200" alt="curl bash" align=center />
+</div>
+
+```
+```
