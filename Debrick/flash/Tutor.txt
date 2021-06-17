@@ -1,0 +1,19 @@
+cara install openwrt xiaomi 4c
+=============================
+
+1. install requirements
+pip3 install -r requirements.txt
+
+2. execution_vulnerability
+python remote_command_execution_vulnerability.py
+
+3. get /tmp
+cd /tmp
+
+4. sha256sum firmware
+./busybox sha256sum openwrt-19.07.4-ramips-mt76x8-mi-router-4c-squashfs-sysupgrade-MacTavishAO.bin
+
+5. write firmware 
+mtd -e OS1 -r write openwrt-19.07.4-ramips-mt76x8-mi-router-4c-squashfs-sysupgrade-MacTavishAO.bin OS1
+
+sha256sum ==> 95141f6a0f5591300d2aca182e38bd0a4accb4e366adb5296c9f6a89a2b7c62e
