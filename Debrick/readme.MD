@@ -32,3 +32,7 @@
 </div>
 
 7. Jika LED router sudah "**Berwarna biru**" silahkan klik offline "**Tools Debrick**" lalu cabut adaptor ruter dan hidupkan ulang router
+
+Note : 
+- Jika hasil akhir proses debrick lampu LED router tidak Berwarna Biru berarti stok firmware debrick tidak cocok  karena beberapa router xiaomi ini default nya ada yang original dan ada juga yang versi bawaan nya sudah menggunakan firmware global international.
+- stok firmware debrick yang ada di tools ini sudah di uji terlebih dauhulu baik di versi 4A basic , 4A gigabye , maupun 4C
