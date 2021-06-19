@@ -1,4 +1,4 @@
-cara install openwrt xiaomi 4c
+cara install openwrt xiaomi 4A dan 4C
 =============================
 
 * install requirements
@@ -15,8 +15,12 @@ cd /tmp
 
 * sha256sum firmware
 
-./busybox sha256sum openwrt-19.07.4-ramips-mt76x8-mi-router-4c-squashfs-sysupgrade-MacTavishAO.bin
+./busybox sha256sum firmware.bin
 
 * write firmware 
 
-mtd -e OS1 -r write openwrt-19.07.4-ramips-mt76x8-mi-router-4c-squashfs-sysupgrade-MacTavishAO.bin OS1
+mtd -e OS1 -r write firmware.bin OS1
+
+Note :
+- desripsi "firmware.bin" dalam perintah di atas silahkan sesuaikan dengan nama descripsi stok firmware yang akan di gunakan
+
