@@ -1,5 +1,8 @@
 cara install openwrt xiaomi 4A dan 4C
 =============================
+- install python3 sesuai compatible dengan windows 32bit/64bit
+- install putty dan winscp
+- download firmware exploit >> https://github.com/acecilia/OpenWRTInvasion/archive/refs/heads/master.zip
 
 * install requirements
 
