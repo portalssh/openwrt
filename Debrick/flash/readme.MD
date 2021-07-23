@@ -5,8 +5,7 @@ cara install openwrt xiaomi 4A dan 4C
 - download firmware exploit >> https://github.com/acecilia/OpenWRTInvasion/archive/refs/heads/master.zip
 - Input koneksi internet via lan ke port WAN router xiaomi
 
-
-
+<br/>
 **1. install requirements >> using CMD**
 
 pip3 install -r requirements.txt
@@ -18,8 +17,11 @@ python remote_command_execution_vulnerability.py
 **3. Buka Telnet via Putty**
 
 IP : 192.168.31.1
+<br/>
 Port : 23
+<br/>
 username : root
+<br/>
 root : root
 
 **4. Upload stok firmware ke folder /tmp >> using WINSCP**
