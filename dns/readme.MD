@@ -4,15 +4,30 @@
 ```
 wget -O /etc/config/https-dns-proxy "https://raw.githubusercontent.com/portalssh/openwrt/main/dns/google.conf"
 ```
+
 * DNS-over-HTTPS cloudfare-standart (fast DNS service which functions as a recursive name server providing domain name resolution for any host on the Internet)
 ```
 wget -O /etc/config/https-dns-proxy "https://raw.githubusercontent.com/portalssh/openwrt/main/dns/cloudfare-standart.conf"
 ```
+* DNS-over-HTTPS cloudfare-family (Malware and adult content blocking)
+```
+wget -O /etc/config/https-dns-proxy "https://raw.githubusercontent.com/portalssh/openwrt/main/dns/cloudfare-adult-content-block.conf"
+```
+
 * DNS-over-HTTPS opendns-standart (DNS servers with custom filtering that protects your device from malware)
 ```
 wget -O /etc/config/https-dns-proxy "https://raw.githubusercontent.com/portalssh/openwrt/main/dns/opendns-standart.conf"
 ```
+* DNS-over-HTTPS opendns-family (OpenDNS servers that provide adult content blocking)
+```
+wget -O /etc/config/https-dns-proxy "https://raw.githubusercontent.com/portalssh/openwrt/main/dns/opendns-familyshield.conf"
+```
+
 * DNS-over-HTTPS adguard-standart (These servers provide blocking ads, tracking and phishing)
 ```
 wget -O /etc/config/https-dns-proxy "https://raw.githubusercontent.com/portalssh/openwrt/main/dns/adguard-default.conf"
+```
+* DNS-over-HTTPS adguard-Family (These servers provide the Default features + Blocking adult websites + Safe search)
+```
+wget -O /etc/config/https-dns-proxy "https://raw.githubusercontent.com/portalssh/openwrt/main/dns/adguard-family-protection.conf"
 ```
