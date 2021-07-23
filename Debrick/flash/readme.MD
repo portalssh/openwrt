@@ -6,6 +6,7 @@ cara install openwrt xiaomi 4A dan 4C
 - Input koneksi internet via lan ke port WAN router xiaomi
 
 <br/>
+
 **1. install requirements >> using CMD**
 
 pip3 install -r requirements.txt
