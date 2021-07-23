@@ -1,3 +1,5 @@
+# List Config DNS-over-HTTPS
+
 * Config DNS-over-HTTPS google for openwrt
 ```
 wget -O /etc/config/https-dns-proxy "https://raw.githubusercontent.com/portalssh/openwrt/main/dns/google.conf"
