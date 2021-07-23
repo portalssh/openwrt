@@ -6,15 +6,15 @@ cara install openwrt xiaomi 4A dan 4C
 
 
 
-**1. install requirements >> using CMD **
+**1. install requirements >> using CMD**
 
 pip3 install -r requirements.txt
 
-**2. execution_vulnerability >> using CMD **
+**2. execution_vulnerability >> using CMD**
 
 python remote_command_execution_vulnerability.py
 
-**3. get /tmp >> using putty **
+**3. get /tmp >> using putty**
 
 cd /tmp
 
@@ -22,7 +22,7 @@ cd /tmp
 
 ./busybox sha256sum firmware.bin
 
-**5. write firmware >> using Putty ** 
+**5. write firmware >> using Putty** 
 
 mtd -e OS1 -r write firmware.bin OS1
 
