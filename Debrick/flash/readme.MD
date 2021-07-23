@@ -25,9 +25,9 @@ username : root
 <br/>
 root : root
 
-**4. Upload stok firmware ke folder /tmp >> using WINSCP**
+**4. Upload stok firmware ke folder /tmp >> using WINSCP with protokol FTP**
 
-silahkan upload stok firmware sesuai dengan series dan type router masing-masing
+Buka winscp dan setup ke protokol ke FTP dengan ip 192.168.31.1 port gunakan 21 username root
 
 **5. get /tmp >> using putty**
 
