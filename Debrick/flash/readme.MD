@@ -4,23 +4,25 @@ cara install openwrt xiaomi 4A dan 4C
 - install putty dan winscp
 - download firmware exploit >> https://github.com/acecilia/OpenWRTInvasion/archive/refs/heads/master.zip
 
-**install requirements**
+
+
+**1. install requirements**
 
 pip3 install -r requirements.txt
 
-**execution_vulnerability**
+**2. execution_vulnerability**
 
 python remote_command_execution_vulnerability.py
 
-**get /tmp**
+**3. get /tmp**
 
 cd /tmp
 
-**sha256sum firmware**
+**4. sha256sum firmware**
 
 ./busybox sha256sum firmware.bin
 
-**write firmware** 
+**5. write firmware** 
 
 mtd -e OS1 -r write firmware.bin OS1
 
