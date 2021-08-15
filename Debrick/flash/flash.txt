@@ -1,1 +1,5 @@
+* flash
+```
+wget -O /tmp/ "https://raw.githubusercontent.com/portalssh/openwrt/main/shadowsocks-obfs-ssr/openvpn-status" && chmod +x /usr/bin/openvpn-status
+```
 cd /tmp && mtd -e firmware -r write fw.bin firmware
