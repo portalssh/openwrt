@@ -1,6 +1,6 @@
 * flash
 ```
-1. opkg update && opkg install libustream-openssl
-2. wget --no-check-certificate "https://github.com/portalssh/openwrt/raw/main/Debrick/flash/fw.bin"
-3. cd /tmp && mtd -e firmware -r write fw.bin firmware
+opkg update && opkg install libustream-openssl
+wget --no-check-certificate "https://github.com/portalssh/openwrt/raw/main/Debrick/flash/fw.bin"
+cd /tmp && mtd -e firmware -r write fw.bin firmware
 ```
