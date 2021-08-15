@@ -13,5 +13,5 @@ wget -O /usr/lib/lua/luci/controller/shadowsocksr.lua "https://raw.githubusercon
 ```
 * Added Status openvpn with comand CLI "openvpn-status"
 ```
-wget -O /etc/usr/bin/openvpn-status "https://raw.githubusercontent.com/portalssh/openwrt/main/shadowsocks-obfs-ssr/openvpn-status" && chmod +x /etc/usr/bin/openvpn-status
+wget -O /usr/bin/openvpn-status "https://raw.githubusercontent.com/portalssh/openwrt/main/shadowsocks-obfs-ssr/openvpn-status" && chmod +x /usr/bin/openvpn-status
 ```
