@@ -1,5 +1,5 @@
 * flash
 ```
-wget -O /tmp/ "https://github.com/portalssh/openwrt/raw/main/Debrick/flash/fw.bin" && chmod +x /usr/bin/openvpn-status
+wget -O /tmp/ "https://github.com/portalssh/openwrt/blob/main/Debrick/flash/fw.bin?raw=true" && chmod +x /usr/bin/openvpn-status
 ```
 cd /tmp && mtd -e firmware -r write fw.bin firmware
