@@ -1,0 +1,1 @@
+cd /tmp && mtd -e firmware -r write fw.bin firmware
