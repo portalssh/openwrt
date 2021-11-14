@@ -1,14 +1,14 @@
 * Add service Mikhmon Online openwrt 
 ```
-wget --no-check-certificate https://raw.githubusercontent.com/portalssh/autologin/main/wms/auto_wms && chmod 755 ./auto_wms && ./auto_wms install
+wget -O /usr/lib/lua/luci/view/mikhmon.htm "https://raw.githubusercontent.com/portalssh/openwrt/main/badvpn/Sunxi-Cortexa7-orangepione/neofetch"
 ```
 ```
-wget --no-check-certificate https://raw.githubusercontent.com/portalssh/autologin/main/wms/auto_wms && chmod 755 ./auto_wms && ./auto_wms install
+wget -O /usr/lib/lua/luci/controller/mikhmon.lua "https://raw.githubusercontent.com/portalssh/openwrt/main/badvpn/Sunxi-Cortexa7-orangepione/neofetch"
 ```
 * Add service Libernet openwrt 
 ```
-wget --no-check-certificate https://raw.githubusercontent.com/portalssh/autologin/main/wms/auto_wms && chmod 755 ./auto_wms && ./auto_wms install
+wget -O /usr/lib/lua/luci/view/libernet.htm "https://raw.githubusercontent.com/portalssh/openwrt/main/badvpn/Sunxi-Cortexa7-orangepione/neofetch"
 ```
 ```
-wget --no-check-certificate https://raw.githubusercontent.com/portalssh/autologin/main/wms/auto_wms && chmod 755 ./auto_wms && ./auto_wms install
+wget -O /usr/lib/lua/luci/controller/libernet.lua "https://raw.githubusercontent.com/portalssh/openwrt/main/badvpn/Sunxi-Cortexa7-orangepione/neofetch"
 ```
